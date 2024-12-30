@@ -1,0 +1,61 @@
+{
+    "apiVersion": "2024-01-01",
+    "id": "/subscriptions/c026ac07-ffac-4e08-b69c-9240e6d12833/resourceGroups/az104-rg6/providers/Microsoft.Network/virtualNetworks/az104-06-vnet1",
+    "name": "az104-06-vnet1",
+    "type": "microsoft.network/virtualnetworks",
+    "location": "eastus",
+    "tags": {},
+    "properties": {
+        "provisioningState": "Succeeded",
+        "resourceGuid": "2027880e-5e4b-431c-b600-7fb6ce75e012",
+        "addressSpace": {
+            "addressPrefixes": [
+                "10.60.0.0/22"
+            ]
+        },
+        "encryption": {
+            "enabled": false,
+            "enforcement": "AllowUnencrypted"
+        },
+        "subnets": [
+            {
+                "name": "default",
+                "id": "/subscriptions/c026ac07-ffac-4e08-b69c-9240e6d12833/resourceGroups/az104-rg6/providers/Microsoft.Network/virtualNetworks/az104-06-vnet1/subnets/default",
+                "etag": "W/\"261f1ed7-93f7-4366-a322-c543cd1cadd0\"",
+                "properties": {
+                    "provisioningState": "Succeeded",
+                    "addressPrefixes": [
+                        "10.60.0.0/24"
+                    ],
+                    "ipConfigurations": [
+                        {
+                            "id": "/subscriptions/c026ac07-ffac-4e08-b69c-9240e6d12833/resourceGroups/AZ104-RG6/providers/Microsoft.Network/networkInterfaces/AZ104-06-VM0983_Z1/ipConfigurations/IPCONFIG1"
+                        }
+                    ],
+                    "delegations": [],
+                    "privateEndpointNetworkPolicies": "Disabled",
+                    "privateLinkServiceNetworkPolicies": "Enabled"
+                },
+                "type": "Microsoft.Network/virtualNetworks/subnets"
+            },
+            {
+                "name": "default2",
+                "id": "/subscriptions/c026ac07-ffac-4e08-b69c-9240e6d12833/resourceGroups/az104-rg6/providers/Microsoft.Network/virtualNetworks/az104-06-vnet1/subnets/default2",
+                "etag": "W/\"261f1ed7-93f7-4366-a322-c543cd1cadd0\"",
+                "properties": {
+                    "provisioningState": "Succeeded",
+                    "addressPrefixes": [
+                        "10.60.1.0/24"
+                    ],
+                    "delegations": [],
+                    "privateEndpointNetworkPolicies": "Disabled",
+                    "privateLinkServiceNetworkPolicies": "Enabled"
+                },
+                "type": "Microsoft.Network/virtualNetworks/subnets"
+            }
+        ],
+        "virtualNetworkPeerings": [],
+        "enableDdosProtection": false
+    },
+    "etag": "W/\"261f1ed7-93f7-4366-a322-c543cd1cadd0\""
+}
